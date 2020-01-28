@@ -1,5 +1,5 @@
-let Tx     = require('ethereumjs-tx').Transaction
-const Web3 = require('web3')
+let Tx     = require('ethereumjs-tx').Transaction;
+const Web3 = require('web3');
 const ethers = require('ethers');
 
 //const web3 = new Web3('https://ropsten.infura.io/v3/a29df21c0ccb4d55b2aff2125020e029')
@@ -75,7 +75,7 @@ web3.eth.getTransactionCount(account3, (err, txCount) => {
         gasLimit: web3.utils.toHex(1000000),
         gasPrice: web3.utils.toHex(web3.utils.toWei('10', 'gwei')),
         data: data
-    }
+    };
 
     // 签署交易
     const tx = new Tx(txObject, { chain: 'ropsten', hardfork: 'petersburg' })
@@ -89,4 +89,4 @@ web3.eth.getTransactionCount(account3, (err, txCount) => {
         console.log('txHash:', txHash)
         // 可以去ropsten.etherscan.io查看交易详情
     })
-})
+});

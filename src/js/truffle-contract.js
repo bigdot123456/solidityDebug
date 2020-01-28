@@ -286,7 +286,7 @@ var contract = (function(module) {
       if (typeof tx_params == "function") {
         callback = tx_params;
         tx_params = {};
-      }
+      } 
 
       tx_params.to = self.address;
 

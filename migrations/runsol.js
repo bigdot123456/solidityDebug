@@ -16,7 +16,7 @@ if (typeof web3 !== 'undefined') {
 //let calcCompiled = web3.eth.compile.solidity(source);
 
 //改用solc编译，需要先 npm install -g solc
-let solfilename='calc.sol'
+let solfilename='metacoin.sol'
 const solcontent = fs.readFileSync(solfilename);
 
 let input = {
@@ -39,7 +39,14 @@ let output = JSON.parse(solc.compile(JSON.stringify(input)));
 
 let bytecode;
 let abi;
-//2.1 获取合约的代码，部署时传递的就是合约编译后的二进制码
+
+for (let contractName in output.contracts[solfilename]) {
+    console.log(
+        contractName +
+        ': ' +
+        output.contracts[solfilename][contractName].evm.bytecode.object
+    );
+}
 
 for (let contractNameItem in output.contracts) {
 // code and ABI that are needed by web3
@@ -57,7 +64,6 @@ for (let contractNameItem in output.contracts) {
 //console.log(JSON.stringify(abi, undefined, 2));
 //可以把abi打印出来，看看智能合约的编译和本来的是不是相同
 }
-
 let deployeAddr = web3.eth.getAccounts().then(function (value) { console.log(value[0]) })
 
 let callerAddr = web3.eth.getAccounts().then(function (value) { console.log(value[1]) })
@@ -68,20 +74,21 @@ callerAddr = 'A655d8d2f425f3e9F9C95D7196Bf9D33b008B508';
 
 //获取合约实例
 const contract = new web3.eth.Contract(abi)
-let contractAddress
+
 //部署合约
 contract.deploy({
     data: bytecode
 }).send({
     from:deployeAddr,//这个地址就是truffle/ganache的第一个节点地址。
-    gas: 4712388,
+    gas: 500000,
     gasPrice: '10000000000000',
 })
     .then((instance) => {
         console.log(`Address: ${instance.options.address}`);
-        contractAddress=instance.options.address;
+        let contractAddress=instance.options.address;
         console.log('Full contract address is ',contractAddress);
     });
+
 
 
 // let deployCode = calcCompiled["code"];
