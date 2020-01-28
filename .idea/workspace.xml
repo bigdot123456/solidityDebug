@@ -1,201 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="671ce658-50e1-444c-b986-a7709ac8a593" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/migrations/myWeb3std.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/testCaller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/web3tx.js" afterDir="false" />
+    <list default="true" id="671ce658-50e1-444c-b986-a7709ac8a593" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/debugjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/debugjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/fortmaticDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/fortmaticDemo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/runsol.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/runsol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/metacoin.sol" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/metacoin.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/testsolc.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/testsolc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethereumjs-tx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethereumjs-tx/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/_version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/_version.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/contracts/contract.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/contracts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/contracts/interface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.types.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/ethers.types.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/_version.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/contracts/contract.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/contracts/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/contracts/interface.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/ethers.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/etherscan-provider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/fallback-provider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/infura-provider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/ipc-provider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/json-rpc-provider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/provider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/providers/web3-provider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/abi-coder.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/address.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/base64.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/bignumber.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/bytes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/errors.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/hash.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/hmac.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/json-wallet.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/keccak256.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/networks.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/pbkdf2.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/properties.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/random-bytes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/rlp.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/secp256k1.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/sha2.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/shims.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/solidity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/transaction.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/types.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/units.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/utf8.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/utils/web.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wallet/hdnode.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wallet/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wallet/secret-storage.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wallet/signing-key.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wallet/wallet.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wordlists/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wordlists/lang-en.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wordlists/lang-it.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wordlists/lang-ja.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wordlists/lang-ko.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wordlists/lang-zh.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/types/wordlists/wordlist.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-it.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/dist/wordlist-zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/ethers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/ethers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/assert.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/async_hooks.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/base.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/buffer.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/child_process.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/cluster.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/console.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/constants.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/crypto.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/dgram.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/dns.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/domain.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/events.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/fs.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/globals.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/http.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/http2.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/https.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/inspector.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/net.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/os.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/path.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/perf_hooks.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/process.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/punycode.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/querystring.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/readline.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/repl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/stream.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/string_decoder.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/timers.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/tls.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/trace_events.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/ts3.2/globals.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/ts3.2/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/ts3.2/util.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/tty.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/url.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/util.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/v8.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/vm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/worker_threads.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/@types/node/zlib.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/curve/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/curve/edwards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/curve/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/curve/mont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/curve/short.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/curves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/ec/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/ec/key.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/ec/signature.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/eddsa/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/eddsa/key.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/eddsa/signature.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/hmac-drbg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/lib/elliptic/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/node_modules/elliptic/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/etherscan-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/providers/etherscan-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/fallback-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/providers/fallback-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/providers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/infura-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/providers/infura-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/ipc-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/providers/ipc-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/json-rpc-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/providers/json-rpc-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/provider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/providers/web3-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/providers/web3-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/shims/hmac.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/shims/hmac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/abi-coder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/abi-coder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/address.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/address.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/base64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/bignumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/bignumber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/bytes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/bytes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/errors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/hash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/hmac.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/hmac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/networks.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/networks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/pbkdf2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/pbkdf2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/properties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/rlp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/rlp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/secp256k1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/secp256k1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/sha2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/sha2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/transaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/units.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/units.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/utf8.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/utf8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/utils/web.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/utils/web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wallet/hdnode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wallet/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wallet/secret-storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wallet/signing-key.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wallet/wallet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wordlists/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/wordlists/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-it.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ethers/wordlists/lang-zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ethers/wordlists/wordlist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scrypt-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scrypt-js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scrypt-js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scrypt-js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scrypt-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scrypt-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scrypt-js/scrypt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scrypt-js/scrypt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scrypt-js/test/test-scrypt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scrypt-js/test/test-vectors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/truffle-contract.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/truffle-contract.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -237,11 +48,8 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/migrations/runsol.js" />
   </component>
-  <component name="RunManager" selected="Node.js.web3tx.js">
+  <component name="RunManager" selected="Node.js.testsolc.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/migrations/app.js" working-dir="$PROJECT_DIR$/migrations">
-      <method v="2" />
-    </configuration>
-    <configuration name="debugjs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/migrations/debugjs.js" working-dir="$PROJECT_DIR$/migrations">
       <method v="2" />
     </configuration>
     <configuration name="runsol.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/migrations/runsol.js" working-dir="$PROJECT_DIR$/migrations">
@@ -250,23 +58,26 @@
     <configuration name="testCaller.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/migrations/testCaller.js" working-dir="$PROJECT_DIR$/migrations">
       <method v="2" />
     </configuration>
+    <configuration name="testsolc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/migrations/testsolc.js" working-dir="$PROJECT_DIR$/migrations">
+      <method v="2" />
+    </configuration>
     <configuration name="web3tx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/migrations/web3tx.js" working-dir="$PROJECT_DIR$/migrations">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.runsol.js" />
-      <item itemvalue="Node.js.debugjs.js" />
       <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.testCaller.js" />
       <item itemvalue="Node.js.web3tx.js" />
+      <item itemvalue="Node.js.testsolc.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.testsolc.js" />
+        <item itemvalue="Node.js.runsol.js" />
         <item itemvalue="Node.js.web3tx.js" />
         <item itemvalue="Node.js.testCaller.js" />
         <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Node.js.debugjs.js" />
-        <item itemvalue="Node.js.runsol.js" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +95,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add web3 tx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add web3 tx" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="177" key="#Plugins" timestamp="1580090823493">
@@ -306,10 +121,10 @@
       <screen x="0" y="23" width="1680" height="985" />
     </state>
     <state x="603" y="229" key="#xdebugger.evaluate/0.23.1680.985@0.23.1680.985" timestamp="1579651848077" />
-    <state x="423" y="102" key="CommitChangelistDialog2" timestamp="1580198123628">
+    <state x="423" y="102" key="CommitChangelistDialog2" timestamp="1580198551214">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="423" y="102" key="CommitChangelistDialog2/0.23.1680.979@0.23.1680.979" timestamp="1580198123628" />
+    <state x="423" y="102" key="CommitChangelistDialog2/0.23.1680.979@0.23.1680.979" timestamp="1580198551214" />
     <state width="896" height="468" key="DebuggerActiveHint" timestamp="1579752004070">
       <screen x="0" y="23" width="1680" height="988" />
     </state>
@@ -319,11 +134,11 @@
       <screen x="0" y="23" width="1680" height="987" />
     </state>
     <state x="100" y="130" width="1480" height="778" key="DiffContextDialog/0.23.1680.987@0.23.1680.987" timestamp="1579840673724" />
-    <state width="1024" height="264" key="GridCell.Tab.0.bottom" timestamp="1580198477163">
+    <state width="964" height="326" key="GridCell.Tab.0.bottom" timestamp="1580217404239">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1026" height="264" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1580178337557" />
-    <state width="1024" height="264" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580198477163" />
+    <state width="1024" height="264" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1580208317851" />
+    <state width="964" height="326" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580217404239" />
     <state width="819" height="326" key="GridCell.Tab.0.bottom/0.23.1680.984@0.23.1680.984" timestamp="1579592577274" />
     <state width="1290" height="326" key="GridCell.Tab.0.bottom/0.23.1680.985@0.23.1680.985" timestamp="1579658119636" />
     <state width="971" height="326" key="GridCell.Tab.0.bottom/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648942" />
@@ -331,11 +146,11 @@
     <state width="1087" height="326" key="GridCell.Tab.0.bottom/0.23.1680.987@0.23.1680.987" timestamp="1579842310487" />
     <state width="1096" height="326" key="GridCell.Tab.0.bottom/0.23.1680.988@0.23.1680.988" timestamp="1579751881995" />
     <state width="969" height="326" key="GridCell.Tab.0.bottom/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334363" />
-    <state width="1024" height="264" key="GridCell.Tab.0.center" timestamp="1580198477163">
+    <state width="964" height="326" key="GridCell.Tab.0.center" timestamp="1580217404238">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1026" height="264" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1580178337556" />
-    <state width="1024" height="264" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1580198477163" />
+    <state width="1024" height="264" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1580208317850" />
+    <state width="964" height="326" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1580217404238" />
     <state width="819" height="326" key="GridCell.Tab.0.center/0.23.1680.984@0.23.1680.984" timestamp="1579592577273" />
     <state width="1290" height="326" key="GridCell.Tab.0.center/0.23.1680.985@0.23.1680.985" timestamp="1579658119636" />
     <state width="971" height="326" key="GridCell.Tab.0.center/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648941" />
@@ -343,11 +158,11 @@
     <state width="1087" height="326" key="GridCell.Tab.0.center/0.23.1680.987@0.23.1680.987" timestamp="1579842310486" />
     <state width="1096" height="326" key="GridCell.Tab.0.center/0.23.1680.988@0.23.1680.988" timestamp="1579751881994" />
     <state width="969" height="326" key="GridCell.Tab.0.center/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334361" />
-    <state width="1024" height="264" key="GridCell.Tab.0.left" timestamp="1580198477162">
+    <state width="964" height="326" key="GridCell.Tab.0.left" timestamp="1580217404238">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1026" height="264" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1580178337556" />
-    <state width="1024" height="264" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1580198477162" />
+    <state width="1024" height="264" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1580208317849" />
+    <state width="964" height="326" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1580217404238" />
     <state width="819" height="326" key="GridCell.Tab.0.left/0.23.1680.984@0.23.1680.984" timestamp="1579592577272" />
     <state width="1290" height="326" key="GridCell.Tab.0.left/0.23.1680.985@0.23.1680.985" timestamp="1579658119635" />
     <state width="971" height="326" key="GridCell.Tab.0.left/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648940" />
@@ -355,11 +170,11 @@
     <state width="1087" height="326" key="GridCell.Tab.0.left/0.23.1680.987@0.23.1680.987" timestamp="1579842310485" />
     <state width="1096" height="326" key="GridCell.Tab.0.left/0.23.1680.988@0.23.1680.988" timestamp="1579751881994" />
     <state width="969" height="326" key="GridCell.Tab.0.left/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334361" />
-    <state width="1024" height="264" key="GridCell.Tab.0.right" timestamp="1580198477163">
+    <state width="964" height="326" key="GridCell.Tab.0.right" timestamp="1580217404239">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="1026" height="264" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1580178337557" />
-    <state width="1024" height="264" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1580198477163" />
+    <state width="1024" height="264" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1580208317850" />
+    <state width="964" height="326" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1580217404239" />
     <state width="819" height="326" key="GridCell.Tab.0.right/0.23.1680.984@0.23.1680.984" timestamp="1579592577273" />
     <state width="1290" height="326" key="GridCell.Tab.0.right/0.23.1680.985@0.23.1680.985" timestamp="1579658119636" />
     <state width="971" height="326" key="GridCell.Tab.0.right/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648941" />
@@ -367,11 +182,11 @@
     <state width="1087" height="326" key="GridCell.Tab.0.right/0.23.1680.987@0.23.1680.987" timestamp="1579842310486" />
     <state width="1096" height="326" key="GridCell.Tab.0.right/0.23.1680.988@0.23.1680.988" timestamp="1579751881995" />
     <state width="969" height="326" key="GridCell.Tab.0.right/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334362" />
-    <state width="965" height="326" key="GridCell.Tab.1.bottom" timestamp="1580198392603">
+    <state width="964" height="326" key="GridCell.Tab.1.bottom" timestamp="1580217404240">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.1.bottom/0.23.1680.978@0.23.1680.978" timestamp="1580115029197" />
-    <state width="965" height="326" key="GridCell.Tab.1.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580198392603" />
+    <state width="964" height="326" key="GridCell.Tab.1.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580217404240" />
     <state width="819" height="326" key="GridCell.Tab.1.bottom/0.23.1680.984@0.23.1680.984" timestamp="1579592577150" />
     <state width="1290" height="326" key="GridCell.Tab.1.bottom/0.23.1680.985@0.23.1680.985" timestamp="1579658119547" />
     <state width="971" height="326" key="GridCell.Tab.1.bottom/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648944" />
@@ -379,11 +194,11 @@
     <state width="1087" height="326" key="GridCell.Tab.1.bottom/0.23.1680.987@0.23.1680.987" timestamp="1579842310489" />
     <state width="1096" height="326" key="GridCell.Tab.1.bottom/0.23.1680.988@0.23.1680.988" timestamp="1579751883020" />
     <state width="969" height="326" key="GridCell.Tab.1.bottom/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334365" />
-    <state width="965" height="326" key="GridCell.Tab.1.center" timestamp="1580198392602">
+    <state width="964" height="326" key="GridCell.Tab.1.center" timestamp="1580217404240">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.1.center/0.23.1680.978@0.23.1680.978" timestamp="1580115029197" />
-    <state width="965" height="326" key="GridCell.Tab.1.center/0.23.1680.979@0.23.1680.979" timestamp="1580198392602" />
+    <state width="964" height="326" key="GridCell.Tab.1.center/0.23.1680.979@0.23.1680.979" timestamp="1580217404240" />
     <state width="819" height="326" key="GridCell.Tab.1.center/0.23.1680.984@0.23.1680.984" timestamp="1579592577149" />
     <state width="1290" height="326" key="GridCell.Tab.1.center/0.23.1680.985@0.23.1680.985" timestamp="1579658119547" />
     <state width="971" height="326" key="GridCell.Tab.1.center/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648943" />
@@ -391,11 +206,11 @@
     <state width="1087" height="326" key="GridCell.Tab.1.center/0.23.1680.987@0.23.1680.987" timestamp="1579842310488" />
     <state width="1096" height="326" key="GridCell.Tab.1.center/0.23.1680.988@0.23.1680.988" timestamp="1579751883019" />
     <state width="969" height="326" key="GridCell.Tab.1.center/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334364" />
-    <state width="965" height="326" key="GridCell.Tab.1.left" timestamp="1580198392602">
+    <state width="964" height="326" key="GridCell.Tab.1.left" timestamp="1580217404240">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.1.left/0.23.1680.978@0.23.1680.978" timestamp="1580115029196" />
-    <state width="965" height="326" key="GridCell.Tab.1.left/0.23.1680.979@0.23.1680.979" timestamp="1580198392602" />
+    <state width="964" height="326" key="GridCell.Tab.1.left/0.23.1680.979@0.23.1680.979" timestamp="1580217404240" />
     <state width="819" height="326" key="GridCell.Tab.1.left/0.23.1680.984@0.23.1680.984" timestamp="1579592577149" />
     <state width="1290" height="326" key="GridCell.Tab.1.left/0.23.1680.985@0.23.1680.985" timestamp="1579658119547" />
     <state width="971" height="326" key="GridCell.Tab.1.left/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648942" />
@@ -403,11 +218,11 @@
     <state width="1087" height="326" key="GridCell.Tab.1.left/0.23.1680.987@0.23.1680.987" timestamp="1579842310488" />
     <state width="1096" height="326" key="GridCell.Tab.1.left/0.23.1680.988@0.23.1680.988" timestamp="1579751883018" />
     <state width="969" height="326" key="GridCell.Tab.1.left/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334363" />
-    <state width="965" height="326" key="GridCell.Tab.1.right" timestamp="1580198392603">
+    <state width="964" height="326" key="GridCell.Tab.1.right" timestamp="1580217404240">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.1.right/0.23.1680.978@0.23.1680.978" timestamp="1580115029197" />
-    <state width="965" height="326" key="GridCell.Tab.1.right/0.23.1680.979@0.23.1680.979" timestamp="1580198392603" />
+    <state width="964" height="326" key="GridCell.Tab.1.right/0.23.1680.979@0.23.1680.979" timestamp="1580217404240" />
     <state width="819" height="326" key="GridCell.Tab.1.right/0.23.1680.984@0.23.1680.984" timestamp="1579592577150" />
     <state width="1290" height="326" key="GridCell.Tab.1.right/0.23.1680.985@0.23.1680.985" timestamp="1579658119547" />
     <state width="971" height="326" key="GridCell.Tab.1.right/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648943" />
@@ -415,11 +230,11 @@
     <state width="1087" height="326" key="GridCell.Tab.1.right/0.23.1680.987@0.23.1680.987" timestamp="1579842310488" />
     <state width="1096" height="326" key="GridCell.Tab.1.right/0.23.1680.988@0.23.1680.988" timestamp="1579751883019" />
     <state width="969" height="326" key="GridCell.Tab.1.right/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334364" />
-    <state width="965" height="326" key="GridCell.Tab.2.bottom" timestamp="1580198392604">
+    <state width="964" height="326" key="GridCell.Tab.2.bottom" timestamp="1580217404241">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.2.bottom/0.23.1680.978@0.23.1680.978" timestamp="1580115029198" />
-    <state width="965" height="326" key="GridCell.Tab.2.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580198392604" />
+    <state width="964" height="326" key="GridCell.Tab.2.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580217404241" />
     <state width="819" height="326" key="GridCell.Tab.2.bottom/0.23.1680.984@0.23.1680.984" timestamp="1579592577150" />
     <state width="1290" height="326" key="GridCell.Tab.2.bottom/0.23.1680.985@0.23.1680.985" timestamp="1579658119548" />
     <state width="971" height="326" key="GridCell.Tab.2.bottom/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648945" />
@@ -427,11 +242,11 @@
     <state width="1087" height="326" key="GridCell.Tab.2.bottom/0.23.1680.987@0.23.1680.987" timestamp="1579842310490" />
     <state width="1096" height="326" key="GridCell.Tab.2.bottom/0.23.1680.988@0.23.1680.988" timestamp="1579751873170" />
     <state width="969" height="326" key="GridCell.Tab.2.bottom/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334366" />
-    <state width="965" height="326" key="GridCell.Tab.2.center" timestamp="1580198392604">
+    <state width="964" height="326" key="GridCell.Tab.2.center" timestamp="1580217404241">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.2.center/0.23.1680.978@0.23.1680.978" timestamp="1580115029197" />
-    <state width="965" height="326" key="GridCell.Tab.2.center/0.23.1680.979@0.23.1680.979" timestamp="1580198392604" />
+    <state width="964" height="326" key="GridCell.Tab.2.center/0.23.1680.979@0.23.1680.979" timestamp="1580217404241" />
     <state width="819" height="326" key="GridCell.Tab.2.center/0.23.1680.984@0.23.1680.984" timestamp="1579592577150" />
     <state width="1290" height="326" key="GridCell.Tab.2.center/0.23.1680.985@0.23.1680.985" timestamp="1579658119548" />
     <state width="971" height="326" key="GridCell.Tab.2.center/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648944" />
@@ -439,11 +254,11 @@
     <state width="1087" height="326" key="GridCell.Tab.2.center/0.23.1680.987@0.23.1680.987" timestamp="1579842310489" />
     <state width="1096" height="326" key="GridCell.Tab.2.center/0.23.1680.988@0.23.1680.988" timestamp="1579751873169" />
     <state width="969" height="326" key="GridCell.Tab.2.center/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334365" />
-    <state width="965" height="326" key="GridCell.Tab.2.left" timestamp="1580198392603">
+    <state width="964" height="326" key="GridCell.Tab.2.left" timestamp="1580217404240">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.2.left/0.23.1680.978@0.23.1680.978" timestamp="1580115029197" />
-    <state width="965" height="326" key="GridCell.Tab.2.left/0.23.1680.979@0.23.1680.979" timestamp="1580198392603" />
+    <state width="964" height="326" key="GridCell.Tab.2.left/0.23.1680.979@0.23.1680.979" timestamp="1580217404240" />
     <state width="819" height="326" key="GridCell.Tab.2.left/0.23.1680.984@0.23.1680.984" timestamp="1579592577150" />
     <state width="1290" height="326" key="GridCell.Tab.2.left/0.23.1680.985@0.23.1680.985" timestamp="1579658119548" />
     <state width="971" height="326" key="GridCell.Tab.2.left/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648944" />
@@ -451,11 +266,11 @@
     <state width="1087" height="326" key="GridCell.Tab.2.left/0.23.1680.987@0.23.1680.987" timestamp="1579842310489" />
     <state width="1096" height="326" key="GridCell.Tab.2.left/0.23.1680.988@0.23.1680.988" timestamp="1579751873169" />
     <state width="969" height="326" key="GridCell.Tab.2.left/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334365" />
-    <state width="965" height="326" key="GridCell.Tab.2.right" timestamp="1580198392604">
+    <state width="964" height="326" key="GridCell.Tab.2.right" timestamp="1580217404241">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.2.right/0.23.1680.978@0.23.1680.978" timestamp="1580115029198" />
-    <state width="965" height="326" key="GridCell.Tab.2.right/0.23.1680.979@0.23.1680.979" timestamp="1580198392604" />
+    <state width="964" height="326" key="GridCell.Tab.2.right/0.23.1680.979@0.23.1680.979" timestamp="1580217404241" />
     <state width="819" height="326" key="GridCell.Tab.2.right/0.23.1680.984@0.23.1680.984" timestamp="1579592577150" />
     <state width="1290" height="326" key="GridCell.Tab.2.right/0.23.1680.985@0.23.1680.985" timestamp="1579658119548" />
     <state width="971" height="326" key="GridCell.Tab.2.right/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648945" />
@@ -463,11 +278,11 @@
     <state width="1087" height="326" key="GridCell.Tab.2.right/0.23.1680.987@0.23.1680.987" timestamp="1579842310490" />
     <state width="1096" height="326" key="GridCell.Tab.2.right/0.23.1680.988@0.23.1680.988" timestamp="1579751873170" />
     <state width="969" height="326" key="GridCell.Tab.2.right/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334366" />
-    <state width="965" height="326" key="GridCell.Tab.3.bottom" timestamp="1580198392606">
+    <state width="964" height="326" key="GridCell.Tab.3.bottom" timestamp="1580217404242">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.3.bottom/0.23.1680.978@0.23.1680.978" timestamp="1580115029199" />
-    <state width="965" height="326" key="GridCell.Tab.3.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580198392606" />
+    <state width="964" height="326" key="GridCell.Tab.3.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580217404242" />
     <state width="819" height="326" key="GridCell.Tab.3.bottom/0.23.1680.984@0.23.1680.984" timestamp="1579592577151" />
     <state width="1290" height="326" key="GridCell.Tab.3.bottom/0.23.1680.985@0.23.1680.985" timestamp="1579658119549" />
     <state width="971" height="326" key="GridCell.Tab.3.bottom/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648947" />
@@ -475,11 +290,11 @@
     <state width="1087" height="326" key="GridCell.Tab.3.bottom/0.23.1680.987@0.23.1680.987" timestamp="1579842310491" />
     <state width="1096" height="326" key="GridCell.Tab.3.bottom/0.23.1680.988@0.23.1680.988" timestamp="1579751873171" />
     <state width="969" height="326" key="GridCell.Tab.3.bottom/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334368" />
-    <state width="965" height="326" key="GridCell.Tab.3.center" timestamp="1580198392605">
+    <state width="964" height="326" key="GridCell.Tab.3.center" timestamp="1580217404241">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.3.center/0.23.1680.978@0.23.1680.978" timestamp="1580115029198" />
-    <state width="965" height="326" key="GridCell.Tab.3.center/0.23.1680.979@0.23.1680.979" timestamp="1580198392605" />
+    <state width="964" height="326" key="GridCell.Tab.3.center/0.23.1680.979@0.23.1680.979" timestamp="1580217404241" />
     <state width="819" height="326" key="GridCell.Tab.3.center/0.23.1680.984@0.23.1680.984" timestamp="1579592577151" />
     <state width="1290" height="326" key="GridCell.Tab.3.center/0.23.1680.985@0.23.1680.985" timestamp="1579658119549" />
     <state width="971" height="326" key="GridCell.Tab.3.center/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648946" />
@@ -487,11 +302,11 @@
     <state width="1087" height="326" key="GridCell.Tab.3.center/0.23.1680.987@0.23.1680.987" timestamp="1579842310490" />
     <state width="1096" height="326" key="GridCell.Tab.3.center/0.23.1680.988@0.23.1680.988" timestamp="1579751873170" />
     <state width="969" height="326" key="GridCell.Tab.3.center/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334367" />
-    <state width="965" height="326" key="GridCell.Tab.3.left" timestamp="1580198392604">
+    <state width="964" height="326" key="GridCell.Tab.3.left" timestamp="1580217404241">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.3.left/0.23.1680.978@0.23.1680.978" timestamp="1580115029198" />
-    <state width="965" height="326" key="GridCell.Tab.3.left/0.23.1680.979@0.23.1680.979" timestamp="1580198392604" />
+    <state width="964" height="326" key="GridCell.Tab.3.left/0.23.1680.979@0.23.1680.979" timestamp="1580217404241" />
     <state width="819" height="326" key="GridCell.Tab.3.left/0.23.1680.984@0.23.1680.984" timestamp="1579592577151" />
     <state width="1290" height="326" key="GridCell.Tab.3.left/0.23.1680.985@0.23.1680.985" timestamp="1579658119548" />
     <state width="971" height="326" key="GridCell.Tab.3.left/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648946" />
@@ -499,11 +314,11 @@
     <state width="1087" height="326" key="GridCell.Tab.3.left/0.23.1680.987@0.23.1680.987" timestamp="1579842310490" />
     <state width="1096" height="326" key="GridCell.Tab.3.left/0.23.1680.988@0.23.1680.988" timestamp="1579751873170" />
     <state width="969" height="326" key="GridCell.Tab.3.left/0.23.1920.1008/1920.23.1680.922@0.23.1920.1008" timestamp="1580095334367" />
-    <state width="965" height="326" key="GridCell.Tab.3.right" timestamp="1580198392605">
+    <state width="964" height="326" key="GridCell.Tab.3.right" timestamp="1580217404241">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="967" height="326" key="GridCell.Tab.3.right/0.23.1680.978@0.23.1680.978" timestamp="1580115029198" />
-    <state width="965" height="326" key="GridCell.Tab.3.right/0.23.1680.979@0.23.1680.979" timestamp="1580198392605" />
+    <state width="964" height="326" key="GridCell.Tab.3.right/0.23.1680.979@0.23.1680.979" timestamp="1580217404241" />
     <state width="819" height="326" key="GridCell.Tab.3.right/0.23.1680.984@0.23.1680.984" timestamp="1579592577151" />
     <state width="1290" height="326" key="GridCell.Tab.3.right/0.23.1680.985@0.23.1680.985" timestamp="1579658119549" />
     <state width="971" height="326" key="GridCell.Tab.3.right/0.23.1680.986/1680.23.1920.1057@0.23.1680.986" timestamp="1580011648946" />
@@ -564,6 +379,18 @@
           <line>1</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/migrations/testsolc.js</url>
+          <line>66</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/migrations/testsolc.js</url>
+          <line>86</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

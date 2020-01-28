@@ -64,16 +64,16 @@ for (let contractNameItem in output.contracts) {
 //console.log(JSON.stringify(abi, undefined, 2));
 //可以把abi打印出来，看看智能合约的编译和本来的是不是相同
 }
-let deployeAddr = web3.eth.getAccounts().then(function (value) { console.log(value[0]) })
+let deployeAddr = web3.eth.getAccounts().then(function (value) { console.log(value[0]) });
 
-let callerAddr = web3.eth.getAccounts().then(function (value) { console.log(value[1]) })
+let callerAddr = web3.eth.getAccounts().then(function (value) { console.log(value[1]) });
 
 deployeAddr = '9448ACAE34D79ACDb6CE8F26a378D9A92EA1F9Ac';
 
 callerAddr = 'A655d8d2f425f3e9F9C95D7196Bf9D33b008B508';
 
 //获取合约实例
-const contract = new web3.eth.Contract(abi)
+const contract = new web3.eth.Contract(abi);
 
 //部署合约
 contract.deploy({
