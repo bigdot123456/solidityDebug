@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="671ce658-50e1-444c-b986-a7709ac8a593" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/metacoin.sol" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/metacoin.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/testsolc.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/testsolc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,10 +118,10 @@
       <screen x="0" y="23" width="1680" height="985" />
     </state>
     <state x="603" y="229" key="#xdebugger.evaluate/0.23.1680.985@0.23.1680.985" timestamp="1579651848077" />
-    <state x="423" y="102" key="CommitChangelistDialog2" timestamp="1580198551214">
+    <state x="423" y="102" key="CommitChangelistDialog2" timestamp="1580217977694">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="423" y="102" key="CommitChangelistDialog2/0.23.1680.979@0.23.1680.979" timestamp="1580198551214" />
+    <state x="423" y="102" key="CommitChangelistDialog2/0.23.1680.979@0.23.1680.979" timestamp="1580217977694" />
     <state width="896" height="468" key="DebuggerActiveHint" timestamp="1579752004070">
       <screen x="0" y="23" width="1680" height="988" />
     </state>
